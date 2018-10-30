@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="lib" path="FGS.jar"/>
-	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry excluding="src/main/java/" kind="src" path=""/>
+	<classpathentry exported="true" kind="lib" path="FGS.jar"/>
+	<classpathentry exported="true" kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gizmo0320/.m2/repository/org/fusesource/jansi/jansi/1.18-SNAPSHOT/jansi-1.18-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gizmo0320/.m2/repository/org/fusesource/jansi/jansi-windows64/1.8/jansi-windows64-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gizmo0320/.m2/repository/org/fusesource/jansi/jansi-native/1.8/jansi-native-1.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
